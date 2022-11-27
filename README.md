@@ -14,15 +14,15 @@ $ ./turtwig -f words.txt
 That should _ideally_ be it, if you face any bug feel free to open an issue!
  
 # About the project 
-
+```
 Ternary Search Trees are a Data Structure similar to Binary Search Trees, the only difference being that each node includes three children. BST’s require rearrangement of entire data which accounts for extreme inefficiency when a dataset is very large. To counter this, the data structures trie’s can be used where each node has 26 children each corresponding to a possibility in the english alphabet. We would also need to include special characters and spaces which would only add to the extremely large amounts of space the trie would take up, be it only in storing the large amount of null pointers. Ternary Search Trees take care of both of these issues by not requiring any rearrangement, while not taking up too much space.
 The project has a wide array of implementations, ranging from using it to search usernames to movie names from a database.
 
 In order to demonstrate the power of this project, we will be implementing the user being able to search phrases / nearest-matching phrases in a directory containing a large number of .txt files.
 If no such phrase is available, the closest-matching phrase along will be displayed as per user input provided to the system. 
-
+```
 Project Objectives 
-To demonstrate the power of using ternary search trees for searching a large amount of data, very quickly while not taking up a lot of space as is the case with Tries. We plan to do this by using them for providing autocomplete and closest suggestion to a search term present in given files.
+To demonstrate the power of using ternary search trees for searching a large amount of data, very quickly while not taking up a lot of space as is the case with Tries. I plan to do this by using them for providing autocomplete and closest suggestion to a search term present in given files.
 
 # Dataset Description
 
@@ -39,7 +39,7 @@ Data Structures Used are -
 
 - Vectors
 
-- Just those two 
+- Just those two ✌️
 
 
 
@@ -56,7 +56,7 @@ A common application of Tries is seen in string-searching algorithms however the
 
 
 
-# Ternary Search Trees Though
+# Ternary Search Trees though...
 A ternary search tree is a special trie data structure where the child nodes of a standard trie are ordered as a binary search tree. It has three children, a left subtree, a right subtree and a mid or an equal subtree.
 
 
